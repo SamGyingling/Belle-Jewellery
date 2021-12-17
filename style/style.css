@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid dodgerblue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-page {
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.navbar h1 {
+  display: flex;
+  align-items: center;
+}
+.navbar span {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100%;
+  height: 80vh;
+}
+
+.product-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.product-container .products {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.product-container .products__item {
+  width: 50%;
+  height: 50vw;
+}
+.product-container button {
+  width: 150px;
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.footer .info {
+  list-style: none;
+}
+.footer .info__link {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.footer .sign-up input {
+  height: 40px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
